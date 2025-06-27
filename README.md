@@ -1,8 +1,11 @@
-# newtest
-for test
-11111111
-222222222
-333333
-444444
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DU-S-H/test.git
+git push -u origin main
 
-dev 5555
+git remote add origin https://github.com/DU-S-H/test.git
+git branch -M main
+git push -u origin main
